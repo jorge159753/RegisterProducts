@@ -1,30 +1,40 @@
-Cadastro e Listagem de Produtos
-<p style="font-size: 20px; text-align: center;">Uma aplica\u00e7\u00e3o para cadastro e gerenciamento simples de produtos.</p>
-Descrição
-Esta aplicação é desenvolvida em Python usando Flask, permitindo:
+# Cadastro e Listagem de Produtos
 
-Cadastro de produtos com campos como:
-Nome do produto
-Descrição do produto
-Valor
-Disponibilidade para venda
-Listagem ordenada por valor (do menor para o maior).
-Acesso direto para cadastro de novos produtos.
-Funcionalidades
-Cadastro de Produto:
+## Descrição
 
-<ul style="list-style-type: circle;"> <li>Formulário para inserir detalhes como nome, descrição, valor, e disponibilidade.</li> <li>Após cadastro, o produto é exibido automaticamente na listagem.</li> </ul>
-Listagem de Produtos:
+Este projeto é uma aplicação web desenvolvida em Python usando Flask que permite o cadastro e listagem de produtos. Os usuários podem:
 
-<ul style="list-style-type: circle;"> <li>Exibe produtos com colunas: Nome e Valor.</li> <li>Ordena produtos do menor para o maior valor.</li> </ul>
-Tecnologias Utilizadas
-Back-end: Python 3.10+ com Flask
-Front-end: HTML5, CSS3 e JavaScript
-Banco de Dados: Estrutura em memória (listas Python)
-Ambiente Virtual: venv para gerenciar dependências
-Estrutura do Projeto
-csharp
-Copiar código
+- Cadastrar produtos com os seguintes campos:
+  - Nome do produto (campo de texto)
+  - Descrição do produto (campo de texto)
+  - Valor do produto (campo de valor numérico)
+  - Disponibilidade para venda (campo com opções "Sim" ou "Não")
+- Visualizar a listagem de produtos ordenados pelo valor (do menor para o maior).
+- Acessar a página de cadastro de um novo produto diretamente da listagem.
+
+## Funcionalidades
+
+- **Cadastro de Produto**:
+
+  - Um formulário para inserir informações sobre o produto.
+  - Quando um novo produto é cadastrado, ele é adicionado à listagem automaticamente.
+
+- **Listagem de Produtos**:
+
+  - Exibição dos produtos com nome e valor.
+  - Ordenação dos produtos pelo valor, do menor para o maior.
+  - Botão para cadastrar um novo produto.
+
+## Tecnologias Utilizadas
+
+- **Back-end**: Python 3.10+ com Flask
+- **Front-end**: HTML5, CSS3 e JavaScript
+- **Banco de Dados**: Estrutura em memória usando listas Python
+- **Ambiente Virtual**: `venv` para gerenciar dependências
+
+## Estrutura do Projeto
+
+```
 Projeto_OAK/
 ├── app.py                 # Código principal do Flask
 ├── templates/
@@ -33,52 +43,81 @@ Projeto_OAK/
 ├── static/
 │   ├── css/
 │   │   └── styles.css     # Arquivo CSS
+│   └── js/
+│       └── script.js      # Arquivo JavaScript
 ├── requirements.txt       # Dependências do projeto
 └── README.md              # Documentação do projeto
+```
 
-Instalação e Execução
-1. Clone o Repositório
-bash
-Copiar código
+## Instalação e Execução
+
+### 1. Clone o Repositório
+
+```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
-2. Crie e Ative o Ambiente Virtual
+```
+
+### 2. Crie e Ative o Ambiente Virtual
+
 No Windows:
 
-bash
-Copiar código
+```bash
 python -m venv venv
-venv\\Scripts\\activate
+venv\Scripts\activate
+```
+
 No Linux/MacOS:
 
-bash
-Copiar código
+```bash
 python3 -m venv venv
 source venv/bin/activate
-3. Instale as Dependências
-bash
-Copiar código
-pip install -r requirements.txt
-4. Execute a Aplicação
-bash
-Copiar código
-python app.py
-Acesse no navegador: http://127.0.0.1:5000
+```
 
-Uso
-Acesse a página inicial: Listagem de produtos ordenados por valor.
-Cadastrar Produto: Clique no botão "Cadastrar Novo Produto" e preencha o formulário.
-Visualizar Produtos: Volte para a listagem e veja os produtos cadastrados.
-Exemplo de Interface
-Listagem de Produtos
-Exibe colunas: Nome e Valor.
-Ordena os produtos automaticamente por valor.
-Formulário de Cadastro
-Campos: Nome, Descrição, Valor, Disponibilidade para Venda.
-Melhorias Futuras
-Persistência dos dados em um banco de dados relacional (ex.: SQLite).
-Paginação para a listagem de produtos.
-Validação mais robusta dos campos do formulário.
-Autor
-Nome: Seu Nome
-Contato: seu-email@exemplo.com
+### 3. Instale as Dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Execute a Aplicação
+
+```bash
+python app.py
+```
+
+Acesse a aplicação no navegador em [http://127.0.0.1:5000](http://127.0.0.1:5000).
+
+## Uso
+
+1. Acesse a página inicial para visualizar a listagem de produtos.
+2. Clique em "Cadastrar Novo Produto" para adicionar um novo item.
+3. Preencha o formulário e clique em "Cadastrar" para adicionar o produto à lista.
+4. Volte para a listagem para visualizar os produtos cadastrados.
+
+## Exemplo de Interface
+
+- **Listagem de Produtos**:
+
+  - Colunas: Nome e Valor.
+  - Produtos ordenados do menor para o maior valor.
+
+- **Formulário de Cadastro**:
+
+  - Nome, Descrição, Valor, e Disponibilidade para Venda (Sim/Não).
+
+## Melhorias Futuras
+
+- Persistência dos dados em um banco de dados relacional (ex.: SQLite).
+- Paginação para a listagem de produtos.
+- Validação mais robusta nos campos do formulário.
+
+## Autor
+
+- **Nome do Desenvolvedor**: Seu Nome
+- **Contato**: [seu-email@exemplo.com](mailto\:seu-email@exemplo.com)
+
+---
+
+Obrigado por usar este projeto! Sinta-se à vontade para contribuir ou relatar problemas no repositório.
+
