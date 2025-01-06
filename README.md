@@ -35,7 +35,7 @@ Este projeto é uma aplicação web desenvolvida em Python usando Flask que perm
 ## Estrutura do Projeto
 
 ```
-Projeto_OAK/
+RegisterProducts/
 ├── app.py                 # Código principal do Flask
 ├── templates/
 │   ├── index.html         # Página principal (listagem de produtos)
