@@ -28,7 +28,7 @@ Este projeto é uma aplicação web desenvolvida em Python usando Flask que perm
 ## Tecnologias Utilizadas
 
 - **Back-end**: Python 3.10+ com Flask
-- **Front-end**: HTML5, CSS3 e JavaScript
+- **Front-end**: HTML5, CSS3
 - **Banco de Dados**: Estrutura em memória usando listas Python
 - **Ambiente Virtual**: `venv` para gerenciar dependências
 
@@ -43,10 +43,7 @@ Projeto_OAK/
 ├── static/
 │   ├── css/
 │   │   └── styles.css     # Arquivo CSS
-│   └── js/
-│       └── script.js      # Arquivo JavaScript
 ├── requirements.txt       # Dependências do projeto
-└── README.md              # Documentação do projeto
 ```
 
 ## Instalação e Execução
@@ -114,10 +111,10 @@ Acesse a aplicação no navegador em [http://127.0.0.1:5000](http://127.0.0.1:50
 
 ## Autor
 
-- **Nome do Desenvolvedor**: Seu Nome
-- **Contato**: [seu-email@exemplo.com](mailto\:seu-email@exemplo.com)
+- **Nome do Desenvolvedor**: Jorge Vitor Silva Gois
+- **Contato**: jv6001757@gmail.com
 
 ---
 
-Obrigado por usar este projeto! Sinta-se à vontade para contribuir ou relatar problemas no repositório.
+## Obrigado por usar este projeto! Sinta-se à vontade para contribuir ou relatar problemas no repositório.
 
