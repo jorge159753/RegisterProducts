@@ -115,6 +115,3 @@ Acesse a aplicação no navegador em [http://127.0.0.1:5000](http://127.0.0.1:50
 - **Contato**: jv6001757@gmail.com
 
 ---
-
-## Obrigado por usar este projeto! Sinta-se à vontade para contribuir ou relatar problemas no repositório.
-
