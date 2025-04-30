@@ -113,5 +113,6 @@ Acesse a aplicação no navegador em [http://127.0.0.1:5000](http://127.0.0.1:50
 
 - **Nome do Desenvolvedor**: Jorge Vitor Silva Gois
 - **Contato**: jv6001757@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/jorge-vitor-091814248/
 
 ---
